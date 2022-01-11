@@ -35,7 +35,6 @@ class _MyAppState extends State<MyApp> {
                 print('ball pressed');
               },
             ),
-
           ),
         ],
       ),
