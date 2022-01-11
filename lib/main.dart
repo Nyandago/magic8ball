@@ -26,11 +26,20 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Container(
-        child: Expanded(
-          child: Image.asset('images/ball1.png'),
-        ),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextButton(
+              child: Image.asset('images/ball1.png'),
+              onPressed: (){
+                print('ball pressed');
+              },
+            ),
+
+          ),
+        ],
       ),
+
     );
   }
 }
