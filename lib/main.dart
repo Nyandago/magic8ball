@@ -26,7 +26,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Center(
-   
+      child: Container(
+        child: Expanded(
+          child: Image.asset('images/ball1.png'),
+        ),
+      ),
     );
   }
 }
